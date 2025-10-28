@@ -1,8 +1,10 @@
 package com.neighbor.multivehiclesearch.model;
 
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class VehicleInfo {
 
     int length;
